@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Docit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Docit is a free and open source online docuemnt recovery tool, with docit you can recover your documents and media files by simply uploading them to our app. Docit uses simple tool like refresh points to recover your documents even when you remove them from the recycle bin.
 
-## Available Scripts
+## How it works under the hood
+Docit uses simple tool created by the developers to help make sure all your files are safe, secure and recoverable
 
-In the project directory, you can run:
 
-### `yarn start`
+## FAQ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Is Docit safe? Docit is safe to use and it's also open-source which means it's free for new developers joining and collaborating to make the service better.
+- Is Docit free? Dcoit is a free software but premium features coming soon as app progresses
+- Is my files safe? Yes, Docit uses secure servers and we're rolling a new feature called secureSSP, which means secured service protocols, which means that all files are saved in different servers, we use regional servers to make sure all your files are safe and secure, this feature will be rolling it soon.
+  
+## How to use it
+Docit is simple to use just simply upload all your files and then wait for them to be uploaded, you'll get a prompt when files are uploaded.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Download
+Docit will soon be available for the web, and soon we're will have docit as a webapp, so you can feel that relief when using it on mobile.
 
-### `yarn test`
+## License
+Docit is licensed under the MIT license that can be found in the LICENSE file.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Contribute?
+If you would like to contribute to this project simply follow the instructions
 
-### `yarn build`
+- Fork the repository
+- Create a new repository
+- Create a new branch, this is where your commits will be stored
+- Create a pull request
+- Merge and wait for your pull request to be accepted.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Copyright
+Copyright © 2020, Created by Creative Tutorials.
