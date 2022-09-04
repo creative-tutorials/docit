@@ -1,0 +1,303 @@
+:root {
+  --light-background: #fff;
+  --dark-background: #1b262c;
+  --blue-background: #458ce8;
+  --greyish-color: #3a4447;
+  --sidebar-dark: #222831;
+  --mainBG: #f1f7fc;
+}
+.dashboard {
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  position: fixed;
+  width: 100%;
+  max-width: 190px;
+  height: 100%;
+  background-color: var(--light-background);
+  padding: 20px;
+}
+.sidebar.setDark {
+  background: var(--sidebar-dark);
+}
+.sidebar::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 3px;
+  height: 30px;
+  background: var(--blue-background);
+  border-radius: 30px;
+}
+.top .logo {
+  color: var(--blue-background);
+  font-size: 1.4rem;
+  padding-left: 20px;
+}
+.top .logo .fa-a {
+  margin-right: 5px;
+}
+.top .logo .fa-p {
+  margin-right: 5px;
+}
+
+.top-s2 {
+  margin-top: 25px;
+}
+.top-s2 .s2-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px transparent;
+  cursor: pointer;
+  border-right: 3px solid transparent;
+  transition: all 0.3s cubic-bezier(0.06, 0.32, 0.24, 0.57);
+}
+.top-s2 .s2-list .list-left {
+  font-size: 1.3rem;
+  margin-right: 5px;
+  transition: all 0.3s cubic-bezier(0.06, 0.32, 0.24, 0.57);
+}
+.top-s2 .s2-list:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue-background);
+}
+.top-s2 .s2-list:hover .list-left {
+  color: var(--blue-background);
+}
+.bottom-s3 {
+  margin-top: 10px;
+}
+.s3-menus .logout_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: transparent;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px transparent;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.3rem;
+  border-right: 3px solid transparent;
+  transition: all 0.3s cubic-bezier(0.06, 0.32, 0.24, 0.57);
+  color: var(--greyish-color);
+}
+.s3-menus .logout_btn.setDark {
+  color: var(--light-background);
+}
+.s3-menus .logout_btn i {
+  font-size: 1.3rem;
+  margin-right: 5px;
+  transition: all 0.3s cubic-bezier(0.06, 0.32, 0.24, 0.57);
+}
+.s3-menus .logout_btn:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-color: var(--blue-background);
+}
+.center_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s3-menus .theme_btn {
+  padding: 20px;
+  background: transparent;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px transparent;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.s3-menus .theme_btn:hover {
+  color: var(--blue-background);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.s3-menus .theme_btn.setDark {
+  color: rgb(226, 226, 226);
+}
+.wrapper {
+  width: 100%;
+  /* height: 100%; */
+  padding-left: 200px;
+  padding-top: 5px;
+}
+.wrapper .header {
+  width: 100%;
+}
+.search-field input {
+  width: 500px;
+  height: 50px;
+  padding-left: 28px;
+  background: var(--light-background);
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  transition: 0.2s ease;
+}
+.search-field input:focus {
+  border-color: var(--blue-background);
+}
+.search-field input.setDark {
+  background: var(--greyish-color);
+  color: var(--light-background);
+}
+.wrapper #nut-text {
+  color: var(--greyish-color);
+  margin-left: 8px;
+}
+#nut-text.setDark {
+  color: var(--light-background);
+}
+.wrapper-element {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.wrapper h2 i {
+  color: var(--blue-background);
+  padding: 10px;
+  background: var(--light-background);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+.folders_box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.folders {
+  padding: 20px;
+  width: 300px;
+  background: var(--light-background);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-right: auto;
+  transition: all 0.3s ease;
+}
+.folders.setDark {
+  background: var(--greyish-color);
+}
+.folders i {
+  color: var(--blue-background);
+  font-size: 2rem;
+}
+.folders #folder-name {
+  font-size: 17px;
+  margin-top: 15px;
+  color: var(--greyish-color);
+}
+#folder-name.setDark {
+  color: var(--light-background);
+}
+.folders #folder-size {
+  margin-top: 5px;
+  color: var(--greyish-color);
+}
+#folder-size.setDark {
+  color: var(--light-background);
+}
+.file_io {
+  margin-top: 30px;
+}
+.jump_header {
+  display: flex;
+  align-items: center;
+}
+.jump_header i {
+  color: var(--blue-background);
+  padding: 10px;
+  background: var(--light-background);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.6rem;
+}
+.jump_header #jump_header-title {
+  color: var(--greyish-color);
+  margin-left: 8px;
+}
+#jump_header-title.setDark {
+  color: var(--light-background);
+}
+.io_upload {
+  margin-top: 35px;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--mainBG);
+}
+::-webkit-scrollbar-thumb {
+    width: 2px;
+    background-color: var(--blue-background);
+    border-radius: 50px;
+}
+.upload_box {
+  width: 800px;
+  background: var(--light-background);
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+.upload_box.setDark {
+  background: var(--greyish-color);
+  border-color: var(--blue-background);
+  color: #fff;
+}
+.upload_box i {
+  margin-right: 5px;
+  font-size: 1.5rem;
+  color: var(--blue-background);
+}
+.upload_btn {
+  position: fixed;
+  right: 15px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: var(--light-background);
+  border-radius: 8px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: var(--greyish-color);
+  transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.upload_btn i {
+  margin-right: 5px;
+}
+.upload_btn:hover {
+  color: var(--blue-background);
+}
+.upload_btn label {
+  display: flex;
+  align-items: center;
+}
+/*  */
+.s2-list.setDark {
+  color: var(--light-background);
+}
