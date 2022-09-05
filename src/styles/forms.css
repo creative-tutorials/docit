@@ -1,0 +1,58 @@
+:root {
+  --light-background: #fff;
+  --dark-background: #1b262c;
+  --blue-background: #458ce8;
+  --greyish-color: #3a4447;
+  --sidebar-dark: #222831;
+  --mainBG: #f1f7fc;
+}
+._component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.box {
+  width: 100%;
+  max-width: 500px;
+  background: var(--sidebar-dark);
+  background: linear-gradient(
+    355deg,
+    var(--sidebar-dark) 0%,
+    var(--dark-background) 49%
+  );
+  padding: 30px 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.box .btm-3 .btm-content h2 {
+  font-size: 1.8rem;
+  color: var(--blue-background);
+}
+.box .btm-3 .btm-content p {
+    font-size: 1.3rem;
+    color: var(--mainBG);
+    font-weight: 500;
+}
+.btn-elem {
+    margin-top: 20px;
+}
+.googleBtn img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.googleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background: var(--mainBG);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.googleBtn h2 {
+    font-size: 1.4rem;
+}
