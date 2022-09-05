@@ -1,3 +1,12 @@
+
+/**
+ * The calculateFileSize function returns a human-readable file size.
+ * 
+ *
+ *
+ * @return A function that returns a string
+ *
+ */
 export function calculateFileSize() {
   return (bytes, si = false, dp = 1) => {
     const thresh = si ? 1000 : 1024;
